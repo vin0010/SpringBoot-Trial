@@ -25,7 +25,7 @@ import io.restassured.response.Response;
 @SpringBootTest(classes = { Application.class }, webEnvironment = WebEnvironment.DEFINED_PORT)
 public class LiveTest {
 
-	private static final String API_ROOT = "http://localhost:8081/api/books";
+	private static final String API_ROOT = "http://localhost:8093/api/books";
 
 	private Book createRandomBook() {
 		Book book = new Book();
