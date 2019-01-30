@@ -13,6 +13,6 @@ public class SimpleController {
     @GetMapping("/")
     public String homePage(Model model) {
         model.addAttribute("appName", appName);
-        return "home";
+        return "index";
     }
 }
