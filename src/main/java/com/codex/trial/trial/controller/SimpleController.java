@@ -15,4 +15,9 @@ public class SimpleController {
         model.addAttribute("appName", appName);
         return "index";
     }
+    @GetMapping("/test")
+    public String testPage(Model model) {
+        model.addAttribute("appName", appName);
+        return "test";
+    }
 }
